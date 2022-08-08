@@ -1,0 +1,138 @@
+/*  CSS Reset & General*/
+
+*	{
+	margin:  0;
+	padding: 0;
+}
+
+body	{
+	font-family: 'Raleway', sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Layout */
+
+.container	{
+	max-width: 1080px;
+}
+
+.header-hero	{
+	background-color: #1F2937;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.header	{
+	display: flex;
+}
+.header ul	{
+	display: flex;
+	margin-left: auto;
+}
+
+.hero	{
+	flex: 1 1 auto;
+	display: flex;
+	margin: 100px 0;
+}
+.hero .text	{
+	width: 50%;
+}
+.hero button	{
+	border: none;
+	margin-top: 5px;
+	padding: 5px 20px;
+	background-color: #3882F6;
+	color: white;
+	border-radius: 4px;
+}
+.hero img	{
+	margin-left: auto;
+}
+
+
+h2	{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.flex-con-img	{
+	margin: 50px 0;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	column-gap:  100px;
+
+}
+.img-flex	{
+	display: flex;
+	flex-direction: column;
+	max-width: 150px;
+}
+.img-flex p{
+	color: grey;
+	font-size: 14px;
+}
+.blue-box	{
+	width:  150px;
+	height: 150px;
+	border: 3px solid #3882F6;
+	border-radius: 4px;
+}
+
+.content-quote	{
+	background-color: #E5E7EB;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 100px 0;
+	font-size: 36px;
+}
+
+.cta	{
+	background-color: #3882F6;
+}
+
+
+
+
+/* Typography */
+
+.header p	{
+	color: white;
+}
+.header ul 	{
+	list-style: none;
+
+}
+
+.hero h1{
+	color: white;
+	font-size: 48px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+}
+.hero p	{
+	color: lightgrey;
+	font-size: 18px;
+}
+
+a	{
+	text-decoration: none;
+	color: white;
+	padding: 0 5px; /* Change later */
+}
+
+/* Other */
+
+.hero img	{
+	width: 400px;
+	height: 200px;
+}
